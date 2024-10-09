@@ -1,0 +1,13 @@
+.tecnologias {
+  display: flex;
+
+  .tecnologias-item {
+    display: flex;
+  }
+
+  img {
+    display: block;
+    width: 20px;
+    padding-left: 10px;
+  }
+}

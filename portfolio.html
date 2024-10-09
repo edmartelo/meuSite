@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduardo - Portifólio</title>
+  <link rel="stylesheet" href="/css/scss/style.css">
+  <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
+
+  <!-- meta -->
+  <meta name="description" content="Desenvolvedor Front End">
+  <meta property="og:image" content="https://martelo.dev.br/img/meta-img.JPG">
+
+  <!-- style -->
+  <link rel="stylesheet" href="/css/scss/style.css">
+
+
+  <!-- favicon -->
+  <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
+
+  <!-- Google tag (gtag.js) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSX774XCLB"></script> -->
+  <!-- <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SSX774XCLB');
+  </script> -->
+</head>
+
+<body>
+  <main>
+    <div class="bg-menu">
+      <header class="header">
+        <a class="logo" href="index.html"><img src="img/detalhe.svg"></a>
+        <nav id="nav">
+          <button id="btn-mobile">
+            <span id="hamburger"></span>
+          </button>
+          <ul class="header-menu">
+            <li class="box"><a href="index.html">← Home</a></li>
+            <li class="box"><a href="index.html#formacao">Formação</a></li>
+            <li class="box"><a href="index.html#experiencia">Experiência</a></li>
+            <li class="box"><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <!-- PORTFÓLIO -->
+
+    <section class="portfolio" id="portfolio" aria-label="Portfólio">
+      <div class="portfolio-container">
+        <h2 class="subtitulo">Portfólio</h2>
+        <div>
+          <p class="portfolio-texto">
+            <br><br>
+            Bem-vindo ao meu portifólio!<br><br>
+            Nesta seção separei os principais projetos onde venho trabalhando e estudando, além de aplicar soluções e aprendizados que venho adquirindo constantemente.<br>
+            E aí, bora fazer sua homepage?
+          </p>
+        </div>
+      </div>
+      <!-- INICIO SLIDE  -->
+      <div class="container-port">
+        <div class="image-container">
+          <span style=" --i: 1">
+            <a href="https://caravan-sandy.vercel.app/" target="_blank">
+              <img src="/img/portfolio/caravan.PNG">
+            </a>
+          </span>
+          <span style="--i: 2">
+            <a href="https://dove23.vercel.app/" target="_blank">
+              <img src="img/portfolio/dove.JPG">
+            </a>
+          </span>
+          <span style="--i: 3">
+            <a href="https://docile-nine.vercel.app/" target="_blank">
+              <img src="img/portfolio/docile.JPG">
+            </a>
+          </span>
+          <span style="--i: 4">
+            <a href="https://bikcraft-pearl.vercel.app/" target="_blank">
+              <img src="img/portfolio/bikcraft2.PNG">
+            </a>
+          </span>
+        </div>
+        <div class="btn-container">
+          <button class="btn" id="prev"><i class="fa-solid fa-rotate-left">←</i></button>
+          <button class="btn" id="next"><i class="fa-solid fa-rotate-right">→</i></button>
+        </div>
+      </div>
+      <!-- FIM SLIDE  -->
+    </section>
+   
+    <section class="mais-trabalhos">
+      <div class="outros-projetos">
+        <h3>Outros projetos</h3>
+        <ul>
+          <li>Frontend Mentor - NFT - Preview
+            <span>
+              <a href="https://nf-tpreview-card-component-lemon.vercel.app/" target="_blank" class="info-curso"><img src="/img/icons/globo.svg" alt="frontend" title="Acessar"></a>
+            </span>
+          </li>
+          <li>Frontend Mentor - Order Summary
+            <span>
+              <a href="https://order-summary-component-main-ashen.vercel.app/" target="_blank" class="info-curso"><img src="/img/icons/globo.svg" alt="Order" title="Acessar"></a>
+            </span>
+          </li>
+          <li>Frontend Mentor - Clipboard Landing Page
+            <span>
+              <a href="https://clipboard-landing-page-master-rosy-seven.vercel.app/" target="_blank" class="info-curso"><img src="/img/icons/globo.svg" alt="Clipboard" title="Acessar"></a>
+            </span>
+          </li>
+          <li>Frontend Mentor - Space Tourism
+            <span>
+              <a href="https://space-tourism-vue.vercel.app/index.html" target="_blank" class="info-curso"><img src="/img/icons/globo.svg" alt="frontend" title="Acessar"></a>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- INICIO BG PRINCIPAL -->
+    <div class="gradient-bg">
+      <svg viewBox="0 0 100vw 100vw" xmlns='http://www.w3.org/2000/svg' class="noiseBg">
+        <filter id='noiseFilterBg'>
+          <feTurbulence type='fractalNoise' baseFrequency='0.6' stitchTiles='stitch' />
+        </filter>
+
+        <rect width='100%' height='100%' preserveAspectRatio="xMidYMid meet" filter='url(#noiseFilterBg)' />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="svgBlur">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="gradients-container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="interactive"></div>
+      </div>
+    </div>
+    <!-- FIM BG PRINCIPAL -->
+
+    <footer class="footer" id="contato">
+      <div class="footer-container">
+        <ul class="footer-redes">
+          <li><a href="https://github.com/edmartelo" target="_blank"><img src="./img/icons/github.ico"></a></li>
+          <li><a href="https://www.linkedin.com/in/eduardomartelo/" target="_blank"><img
+                src="./img/icons/linkedin.ico"></a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=5511910702169" target="_blank"><img
+                src="./img/icons/whatsapp.png"></a></li>
+        </ul>
+        <span class="footer-texto">
+          <a class="footer-texto" href="mailto:smarteloedu@gmail.com">smarteloedu@gmail.com
+          </a><br>11 91070-2169
+        </span>
+
+        <span class="version">2024 V3</span>
+      </div>
+    </footer>
+    <button class="goToBack" id="goToBack" onclick="topFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+    </svg>
+    </button>
+  </main>
+
+  <script src="/js/portfolio.js"></script>
+  <script src="/js/script.js"></script>
+
+</body>
+
+</html>

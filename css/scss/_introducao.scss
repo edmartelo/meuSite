@@ -1,0 +1,128 @@
+#introducao {
+  scroll-margin-top: 200px; 
+}
+
+.introducao {
+  // background: $bg-header-form-port;
+
+  h1 {
+    font-size: $fontSection;
+    line-height: $fontSize;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+  }
+
+  p {
+    font-size: $fontText;
+    color: $cor-texto-escuro;
+  }
+
+  .cabecalho {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 10% auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+    color: $cor2;
+    // -webkit-backdrop-filter: blur(10px);
+    // background-color: rgba(13, 14, 22, 0.8);
+    // backdrop-filter: blur(10px);
+    border-radius: 8px;
+
+    p {
+      color: $cor2 !important;
+    }
+  }
+
+  .apresentacao {
+    .apresentacao-texto {
+      font-size: 20px;
+      color: $cor-subtitulo-claro;
+      line-height: 30px;
+      padding: 50px 0 50px 0;
+      strong {
+        color: $cor2;
+      }
+    }
+    a {
+      -webkit-backdrop-filter: blur(10px);
+      background-color: #2675de;
+      backdrop-filter: blur(10px);
+      padding: 10px 20px 10px 20px;
+      color: $cor2;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      
+      &:hover {
+        background-color: $color2;
+        transition: 1.2s;
+      }
+    }
+  }
+}
+
+@media (max-width: 1210px) {
+  .introducao {
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .introducao {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+    .cabecalho {
+      margin-top: 70px;
+      justify-content: center;
+      display: flex;
+
+      .apresentacao {
+        width: 400px;
+      }
+    }
+
+    h1 {
+      font-size: 2rem;
+
+      &::before {
+        width: 30px;
+        height: 10px;
+        left: 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .img-perfil {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .introducao {
+    grid-template-columns: 1fr;
+
+    .cabecalho {
+      margin-top: 70px;
+
+      .apresentacao {
+        width: 320px;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,51 @@
+//-> cores globais
+$cor1 : #fff;
+$cor2 : aliceblue;
+$cor3 : #8f8f8f; //titulos formacao e portfolio
+$cor-subtitulo-claro : #e0e0e0; //para fundo claro
+$cor-subtitulo-escuro : #000; //para fundo escuro
+$cor-texto-claro : #a3a3a3; //para fundo escuro
+$cor-texto-escuro : #525252; //para fundo claro
+
+//-> BG home
+$color-bg1: #001120;
+$color-bg2: #080A0F;
+$color-bg3: #001120;
+$color1: #1271FF;
+$color2: #6B4AFF;
+$color3: #6464FF;
+$color4: #32A0DC;
+$color5: #502f7a;
+$color-interactive: #8C64FF;
+$circle-size: 80%;
+$blending: hard-light;
+
+//-> BG portifólio
+:root {
+  --color-bg1-port: #6c00a2;
+  --color-bg2-port: #001152;
+  --color1-port: 18, 113, 255;
+  --color2-port: 221, 74, 255;
+  --color3-port: 100, 220, 255;
+  --color4-port: 200, 50, 50;
+  --color5-port: 180, 180, 50;
+  --color-interactive-port: 140, 100, 255;
+  --circle-size: 80%;
+  --blending: hard-light;
+}
+
+
+//-> bg's sólidos
+$bg-botoes : linear-gradient(#001080, #2675de);
+$bg-botoes-hover : linear-gradient(#949ac5, #2675de);
+$bg-experiencia : #f5f5f5;
+$bg-header-form-port : #0d0e16;
+$bg-menu-footer : radial-gradient(ellipse at bottom, #18212d 0%, #0d0e16 100%);
+
+//-> fonts 
+$font : "fira-sans-regular";
+$fontB : "fira-sans-bold";
+$fontSize : 1.125;
+$fontHeight : 2.125rem;
+$fontSection : 4rem;
+$fontText : 1.5rem;
