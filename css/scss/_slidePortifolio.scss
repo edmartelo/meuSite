@@ -60,7 +60,7 @@
 	position: absolute;
 	bottom: -140px;
 	-webkit-backdrop-filter: blur(10px);
-	background-color: rgba(13, 14, 22, 0.8);
+	background-color: #6B4AFF;
 	backdrop-filter: blur(10px);
 	color: $cor2;
 	border: none;
@@ -70,7 +70,7 @@
 	font-size: 20px;
 
 	&:hover {
-		filter: brightness(1.5);
+		background-color: #8C64FF;
 	}
 }
 
