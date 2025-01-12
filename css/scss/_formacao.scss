@@ -111,9 +111,10 @@
     display: flex;
     gap: 10px;
   }
-  .info-curso {
-    animation: headShake 2s infinite;
-  }
+}
+
+.info-curso {
+  animation: headShake 2s infinite;
 }
 
 .formacao-extra {
