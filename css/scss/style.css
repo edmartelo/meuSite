@@ -865,6 +865,11 @@ img {
   gap: 20px;
   margin-bottom: 60px;
 }
+@media (max-width: 776px) {
+  .faculdade-lista {
+    flex-direction: column;
+  }
+}
 
 .faculdade {
   flex: 1;
